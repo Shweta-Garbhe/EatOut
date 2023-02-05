@@ -39,11 +39,11 @@ Emmet is a free add-on for your text editor. It is an essential tool for develop
 - With React we can create DOM/React elements but browser does not understand the React element. ReactDOM is the middleman that renders the React element in the browser.
 _Example_: To render the above list element(listElement) in DOM.  
 ```
-const listElement = **React**.createElement( 'li', {
+const listElement = React.createElement( 'li', {
     className: 'list'
 }, 'React.js' );
 
-**ReactDOM**.render( listElement, document.querySelector( '#root' ) );
+ReactDOM.render( listElement, document.querySelector( '#root' ) );
 ```
 
 
