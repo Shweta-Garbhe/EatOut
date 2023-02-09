@@ -1,0 +1,28 @@
+{
+  "name": "eatout",
+  "version": "1.0.0",
+  "description": "This is a food app which is developed usign react js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shweta-Garbhe/React.git"
+  },
+  "author": "Shweta Garbhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shweta-Garbhe/React/issues"
+  },
+  "homepage": "https://github.com/Shweta-Garbhe/React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
