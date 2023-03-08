@@ -1,6 +1,6 @@
 # _Assignment 04 - Talk is Cheap, show me the code_
 
-## 1 Is `JSX` mandatory for React?
+## 1: Is `JSX` mandatory for React?
 
 - JSX is not a requirement for using React.
 - Using React without JSX is especially convenient when you don’t want to set up compilation in your build environment.
