@@ -135,7 +135,7 @@ and import like:
 #### Syntax for useState hook
 
 ```
-> const [state, setState] = useState(initialstate);
+const [state, setState] = useState(initialstate);
 
 import React, { useState } from "react";
 
