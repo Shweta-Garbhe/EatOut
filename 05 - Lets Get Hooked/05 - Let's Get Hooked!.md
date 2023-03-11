@@ -145,7 +145,5 @@ function ExampleWithManyStates() {
   const [counter, setCounter] = useState(0);
   const [fruit, setFruit] = useState('banana');
   const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
-  //
-
 }
 ```
