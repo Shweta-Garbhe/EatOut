@@ -1,6 +1,6 @@
 # _Assignment 04 - Talk is Cheap, show me the code_
 
-## 1 Is `JSX` mandatory for React?
+## 1: Is `JSX` mandatory for React?
 
 - JSX is not a requirement for using React.
 - Using React without JSX is especially convenient when you don’t want to set up compilation in your build environment.
@@ -10,7 +10,7 @@
 #### Example of `JSX`
 
 ```
-const header = <h1>HEllo World!</h1>;
+const header = <h1>Hello World!</h1>;
 ```
 
 ## 2: Is `ES6` mandatory for React?
@@ -96,8 +96,8 @@ return (
 - The reconciliation algorithm works by comparing the current virtual DOM tree to the updated virtual DOM tree, and making the minimum number of changes necessary to bring the virtual DOM in line with the updated state.
 
 - The algorithm uses two main techniques to optimize updates:
-  🚀 Tree diffing: React compares the current virtual DOM tree with the updated virtual DOM tree, and identifies the minimum number of changes necessary to bring the virtual DOM in line with the updated state.
-  🚀 Batching: React batches multiple changes into a single update, reducing the number of updates to the virtual DOM and, in turn, the real DOM.
+    - _Tree diffing_: React compares the current virtual DOM tree with the updated virtual DOM tree, and identifies the minimum number of changes necessary to bring the virtual DOM in line with the updated state.
+    - _Batching_: React batches multiple changes into a single update, reducing the number of updates to the virtual DOM and, in turn, the real DOM.
 
 - The reconciliation algorithm is a critical part of React’s performance and helps make React one of the fastest and most efficient JavaScript libraries for building user interfaces.
 - After the reconciler compares the current and updated virtual DOM, it identifies the differences and makes the necessary changes to the virtual DOM to bring it in line with the updated state.
