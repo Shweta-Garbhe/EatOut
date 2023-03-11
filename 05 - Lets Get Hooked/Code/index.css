@@ -1,0 +1,230 @@
+body {
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+  letter-spacing: 0;
+  line-height: 1;
+  font-weight: 300;
+  color: #282c3f;
+}
+
+#root {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+  box-shadow: 0px 2px 2px 0px #635e5e1a;
+}
+
+.nav-items>ul.nav-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 5px;
+}
+
+.nav-items>ul.nav-ul>li {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  color: #3d4152;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-items>ul.nav-ul>li>span:hover {
+  color: #FB8E3E;
+}
+
+.nav-items>ul.nav-ul>li>span {
+  vertical-align: middle;
+}
+
+.carousel {
+  margin-top: 5rem;
+}
+
+.gallery {
+  margin-top: 2rem;
+  padding: 1rem 0rem;
+  background-color: #e7edf3;
+  /* background-color: #f5deb3; */
+  /* blanchedalmond */
+}
+
+.img-gallery {
+  border: 1px solid lightgray;
+  box-shadow: 0 5px 10px lightgrey;
+  border-radius: 5px;
+  height: 16rem;
+  width: 17rem;
+}
+
+.rest-count-info {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+  font-weight: 600;
+  font-size: 28px;
+  flex: 1;
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-wrapper>.card {
+  border: 1px solid white;
+  padding: 1rem;
+  width: 19rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #d3d3d3;
+}
+
+.card-wrapper>.card:hover {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px lightgrey;
+}
+
+.card-image {
+  height: 10rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+div.rest-name {
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+div.rest-menu {
+  color: #686b78;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+div.rest-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #535665;
+  font-size: 12px;
+  padding-right: 3px;
+}
+
+div.rest-ratings {
+  font-size: 13px;
+  height: 20px;
+  width: 45px;
+  background-color: #48c479;
+  color: #fff;
+  padding: 0 3px;
+  font-weight: 400;
+
+}
+
+.rest-ratings>span.icon-star {
+  margin-top: 5px;
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding: 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.rest-distance {
+  font-size: 12px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #535665;
+}
+
+#container {
+  padding: 10px;
+}
+
+.footer {
+  background-color: #171a29;
+  color: #f5deb3;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3;
+}
+
+.search-count-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+}
+
+.search-container {
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.search-input {
+  position: relative;
+  font-size: 1.05rem;
+  line-height: 24px;
+  width: 85.7% !important;
+  height: 100%;
+  outline: 0;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  color: inherit;
+  background: inherit;
+  vertical-align: middle;
+  padding: 0 1rem;
+  border-radius: 5px;
+  margin-right: 1%;
+}
+
+.fa-search-input {
+  color: #78797a;
+  position: absolute;
+  right: 22%;
+  top: 45%;
+}
+
+.btn-search {
+  background-color: #5421a1 !important;
+  font-size: inherit !important;
+  border: 1px solid lightgray !important;
+}
+
+.btn-search:before {
+  content: 'Search';
+}
+
+@media (max-width: 768px) {
+  .fa-search-input {
+    display: none !important;
+  }
+
+  .search-input {
+    width: 65% !important;
+  }
+
+  /* .btn-search {
+        visibility: hidden;
+      }
+    
+      .btn-search:after {
+        content: '🔍';
+        visibility: visible;
+      } */
+}
