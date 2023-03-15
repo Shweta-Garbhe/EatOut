@@ -164,6 +164,7 @@ The optional chaining (?.) operator accesses an object's property or calls a fun
 
 - If we want to use `JS expression` in JSX, we have to wrap in `{/* expression slot */}` and if we want to use `JS statement` in JSX, we have to wrap in `{(/* statement slot */)}`;
 
+
 ## 8: What is `Conditional Rendering`? explain with a code example.
 
 - Your components will often need to display different things depending on different conditions. In React, you can conditionally render JSX using JavaScript syntax like if statements, &&, and ? : operators.for example:
@@ -199,6 +200,7 @@ domainy.com receives a request and it responds back with either:
 - Access-Control-Allow-Origin: \* (meaning all domains are allowed)
 - An error if the cross-origin requests are not allowed.
 
+
 ## 10: What is `async and await`?
 
 - `Async`:
@@ -226,6 +228,7 @@ domainy.com receives a request and it responds back with either:
 >     console.log(json);
 >   }
 ```
+
 
 ## 11: What is the use of `const json = await data.json()`; in `getRestaurants()`?
 
