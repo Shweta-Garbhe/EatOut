@@ -38,7 +38,7 @@
 
 - While a monolithic application is a single unified unit, a microservices architecture breaks it down into a collection of smaller independent units. These units carry out every application process as a separate service. So, all the services have their own logic and databases, as well as perform specific functions.
 
-![Monolith Vs Microservice](../Code/public/monolith-microservices.jpg)
+![Monolith Vs Microservice](/Code/public/monolith-microservices.jpg)
 
 ## 4: Why do we need a `useEffect Hook`?
 .
