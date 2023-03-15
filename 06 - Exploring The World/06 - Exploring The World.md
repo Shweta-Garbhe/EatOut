@@ -41,7 +41,6 @@
 ![Monolith Vs Microservice](./Code/public/monolith-microservices.JPG)
 
 ## 4: Why do we need a `useEffect Hook`?
-.
 - The Effect Hook is javascript function provided by `react`. This allows you to `perform side effects` in your components.
 - Some examples of side effects are: `fetching API data`, `directly updating the DOM`, and `setting up subscriptions or timers` etc.
   useEffect accepts `two arguments`, a `callback function` and a `dependency array`. The second argument is optional.
@@ -164,7 +163,6 @@ The optional chaining (?.) operator accesses an object's property or calls a fun
 
 - If we want to use `JS expression` in JSX, we have to wrap in `{/* expression slot */}` and if we want to use `JS statement` in JSX, we have to wrap in `{(/* statement slot */)}`;
 
-
 ## 8: What is `Conditional Rendering`? explain with a code example.
 
 - Your components will often need to display different things depending on different conditions. In React, you can conditionally render JSX using JavaScript syntax like if statements, &&, and ? : operators.for example:
@@ -200,7 +198,6 @@ domainy.com receives a request and it responds back with either:
 - Access-Control-Allow-Origin: \* (meaning all domains are allowed)
 - An error if the cross-origin requests are not allowed.
 
-
 ## 10: What is `async and await`?
 
 - `Async`:
@@ -228,7 +225,6 @@ domainy.com receives a request and it responds back with either:
 >     console.log(json);
 >   }
 ```
-
 
 ## 11: What is the use of `const json = await data.json()`; in `getRestaurants()`?
 
