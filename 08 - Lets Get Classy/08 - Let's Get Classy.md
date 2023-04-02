@@ -2,7 +2,7 @@
 
 ## 1: How do you create `Nested Routes` react-router-dom configuration?
 
-A: We can create a `Nested Routes` inside a react router configuration as follows:
+- We can create a `Nested Routes` inside a react router configuration as follows:
 first call createBrowserRouter for routing different pages
 
 ```
