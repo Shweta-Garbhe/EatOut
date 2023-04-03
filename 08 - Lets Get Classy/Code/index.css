@@ -500,12 +500,10 @@ div.shimmer-rest-info {
 }
 
 .offer-banner {
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2rem 0;
-  padding: 3rem;
+  padding: 3rem 5rem;
   display: flex;
 }
-
-
 
 /* Offer page ends */
