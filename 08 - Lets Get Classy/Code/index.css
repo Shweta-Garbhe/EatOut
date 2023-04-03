@@ -495,7 +495,7 @@ div.shimmer-rest-info {
 .offer-wrapper {
   background-color: #5d3c8d;
   color: white;
-  height: 15rem;
+  min-height: 15rem;
   line-height: 1.2;
 }
 
