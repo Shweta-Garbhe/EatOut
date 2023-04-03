@@ -45,15 +45,9 @@ class Offer extends React.Component {
             </div>
             <div>
               <img
-                src={require("../../public/sparkles.png")}
-                style={{ marginRight: "2rem" }}
-                height={55}
-                width={85}
-              />
-              <img
-                src={require("../../public/offerpromo.png")}
-                height={150}
-                width={150}
+                src={require("../../public/offer.webp")}
+                height={170}
+                width={240}
               />
             </div>
           </div>
