@@ -25,9 +25,6 @@ class Offer extends React.Component {
   }
 
   render() {
-    // Early Return
-    if (!this.state.restaurants) return null;
-
     return (
       <>
         <div className="offer-wrapper">
@@ -47,6 +44,12 @@ class Offer extends React.Component {
               </p>
             </div>
             <div>
+              <img
+                src={require("../../public/sparkles.png")}
+                style={{ marginRight: "2rem" }}
+                height={55}
+                width={85}
+              />
               <img
                 src={require("../../public/offerpromo.png")}
                 height={150}
