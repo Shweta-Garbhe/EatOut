@@ -28,14 +28,15 @@ body {
 }
 
 .nav-items>ul.nav-ul>li>span:hover,
-.btn-menu:hover {
+.btn-menu:hover,
+.link-active {
   color: #FB8E3E !important;
 }
 
 .btn-menu {
   background-color: none !important;
   border: none !important;
-  color: #3d4152 !important;
+  color: #3d4152;
   font-size: 1.1rem !important;
 }
 
@@ -49,6 +50,7 @@ body {
 
 .gallery {
   padding: 2rem 3rem;
+  margin-top: 2rem;
   background-color: #e7edf3;
 }
 

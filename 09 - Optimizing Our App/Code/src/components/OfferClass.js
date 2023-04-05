@@ -57,6 +57,7 @@ class Offer extends React.Component {
               /> */}
               <img
                 src={require("../../public/offer.webp")}
+                style={{ marginRight: "4rem" }}
                 height={170}
                 width={240}
               />
