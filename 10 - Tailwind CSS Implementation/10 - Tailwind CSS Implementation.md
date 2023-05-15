@@ -12,9 +12,9 @@
 
 ## 2. How do we configure tailwind?
 
-    - 1. npm install -D tailwindcss postcss
-    - 2. npx tailwindcss init
-    - 3. Add below code in .postcssrc file in root directory
+    1. npm install -D tailwindcss postcss
+    2. npx tailwindcss init
+    3. Add below code in .postcssrc file in root directory
     ```
     {
     "plugins": {
@@ -23,7 +23,7 @@
     }
     ```
 
-    - 4. Add below code in tailwind.config.js in root directory
+    4. Add below code in tailwind.config.js in root directory
     ```
     /** @type {import('tailwindcss').Config} */
         module.exports = {
@@ -36,7 +36,7 @@
 
     ```
 
-    - 5.  Add below code in index.css in root direcory css file
+    5.  Add below code in index.css in root direcory css file
 
     ```
     @tailwind base;
