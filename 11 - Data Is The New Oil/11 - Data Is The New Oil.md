@@ -22,7 +22,7 @@ Profile {username:"Shweta Garbhe"}
 ```
 
 Refer Below image to undertand Props Drilling in pictorial format.
-![Props Driiling](./Code/public/props-drilling.JPG)
+![Props Driiling](./Code/public/props_drilling.JPG)
 
 ## 2. What is lifting the state up?
 
