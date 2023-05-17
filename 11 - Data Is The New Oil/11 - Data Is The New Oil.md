@@ -24,6 +24,7 @@ Profile {username:"Shweta Garbhe"}
 Refer Below image to undertand Props Drilling in pictorial format.
 ![Props Driiling](./Code/public/props_drilling.JPG)
 
+
 ## 2. What is lifting the state up?
 
 - In React, each component has its state. Lifting the state up is a valuable concept for React developers since we often have a state that is accommodated within a single component but needs to be shared with its siblings. We lift the state up to make the parent state a single shared state and a sole "source of truth" and pass the parent's data to its children.
@@ -31,6 +32,7 @@ Refer Below image to undertand Props Drilling in pictorial format.
 - Many times, multiple components must reflect the same changing data. And if the data is not in sync between the "parent and children components" or "cousin components," it is recommended to lift the shared state up to the closest common ancestor.
 - It's better to have a single "source of truth" for any changing data in our react application. We often have a state contained within a single component but needs to be shared with siblings. In such cases, we can use the lifting of state up.
 - Rather than using a full-fledged state management framework like Redux or React Context, we can lift the state up to the next common ancestor and transmit the state variables, state values, and any callbacks to change that state down. Using this method also reduces bugs' surface area and makes it easier to implement any custom logic
+
 
 ## 3. What is Context Provider and Context Consumer?
 
