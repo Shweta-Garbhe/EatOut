@@ -5,38 +5,44 @@ const Section = ({ title, description, isVisible, setIsVisible }) => {
     <>
       <div className="ms-5 me-5 mt-1">
         <div className="accordion-wrapper p-2 m-2">
-          <div className="accordion-title-wrapper">
-            <h6 className="m-2">{title}</h6>
-            {isVisible ? (
-              <button
-                type="button"
-                className="btn btn-default btn-xs pt-0"
-                onClick={() => setIsVisible()}
-              >
+          {isVisible ? (
+            <button
+              type="button"
+              className="btn btn-default btn-xs pt-0"
+              style={{ width: "100%", borderStyle: "none" }}
+              onClick={() => setIsVisible()}
+            >
+              <div className="accordion-title-wrapper">
+                <h6 className="m-2">{title}</h6>
                 <img
                   src={require("../../public/arrow-up.png")}
                   alt="accordion-arrow"
                   className="img-accordion-arrow"
                 />
-              </button>
-            ) : (
-              <button
-                type="button"
-                className="btn btn-default btn-xs pt-0"
-                onClick={() => setIsVisible()}
-              >
+              </div>
+            </button>
+          ) : (
+            <button
+              type="button"
+              className="btn btn-default btn-xs pt-0"
+              style={{ width: "100%", borderStyle: "none" }}
+              onClick={() => setIsVisible()}
+            >
+              <div className="accordion-title-wrapper">
+                <h6 className="m-2">{title}</h6>
                 <img
                   src={require("../../public/down-arrow.png")}
                   alt="accordion-arrow"
                   className="img-accordion-arrow"
                 />
-              </button>
-            )}
-          </div>
+              </div>
+            </button>
+          )}
+          {/* </div> */}
           {isVisible && (
             <div>
               <p className="m-2 my-4" style={{ fontSize: "15px" }}>
-                {description}
+                &nbsp;&nbsp;&nbsp;{description}
               </p>
             </div>
           )}
