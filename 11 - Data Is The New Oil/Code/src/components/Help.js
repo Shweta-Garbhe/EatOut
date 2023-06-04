@@ -38,7 +38,6 @@ const Section = ({ title, description, isVisible, setIsVisible }) => {
               </div>
             </button>
           )}
-          {/* </div> */}
           {isVisible && (
             <div>
               <p className="m-2 my-4" style={{ fontSize: "15px" }}>
