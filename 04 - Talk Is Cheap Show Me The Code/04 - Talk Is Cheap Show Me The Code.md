@@ -26,7 +26,7 @@ const header = <h1>Hello World!</h1>;
 - `{TitleComponent}`: This value describes the `TitleComponent` as a javascript expression or a variable.
   The `{}` can embed a javascript expression or a variable inside it.
 
-- `<TitleComponent/>` : This value represents a Component that is basically returning Some JSX value. In simple terms `TitleComponent` a function that is returning a JSX value.
+- `<TitleComponent/>` : This value represents a Component that is basically returning Some JSX value. In simple terms `TitleComponent` is a function that is returning a JSX value.
   A component is written inside the `{<  />}` expression.
 
 - `<TitleComponent></TitleComponent>` : `<TitleComponent />` and `<TitleComponent></TitleComponent>` are equivalent only when `< TitleComponent />` has no child components. The opening and closing tags are created to include the child components.
