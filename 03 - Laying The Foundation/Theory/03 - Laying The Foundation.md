@@ -10,7 +10,6 @@
 - After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects.
 
 ### Example 1 - WITH JSX:
-
 ```
 const element = (
   <h1 className="greeting">
