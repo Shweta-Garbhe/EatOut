@@ -3,7 +3,7 @@
 ### 1: When and why do we need `lazy()`?
 
 - lazy() allows developers to easily create components with dynamic imports and render them as normal components. When the component is rendered, it will automatically load the bundle that contains the rendered component. You need to provide a single input parameter to call React. lazy().
-- It accepts a function as an input parameter, and that function should return a promise after loading the component using import(). Finally, the returned promise from React.lazy() will give you a module with a default export containing the React component.
+- It accepts a function as an input parameter and that function should return a promise after loading the component using import(). Finally, the returned promise from React.lazy() will give you a module with a default export containing the React component.
 - Example:
 
 ```
